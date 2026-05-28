@@ -1,52 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Broken Memoirs</title>
-
-  <style>
-    body {
-      background: #0D0D0D;
-      color: white;
-      font-family: Arial;
-      text-align: center;
-      padding-top: 100px;
-    }
-
-    h1 {
-      font-size: 60px;
-      color: #E0AFA0;
-    }
-
-    p {
-      color: #cccccc;
-      font-size: 22px;
-    }
-
-    button {
-      background: #C58F7C;
-      border: none;
-      padding: 15px 30px;
-      border-radius: 10px;
-      color: white;
-      font-size: 18px;
-      cursor: pointer;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Looped Creative Studio | Digital Design, Branding & AI Systems</title>
+  <meta name="description" content="Looped Creative Studio creates refined brands, websites, AI content systems, and digital experiences for businesses ready to grow with intention." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
 </head>
-
 <body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
 
-  <h1>Broken Memoirs</h1>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Looped Creative Studio home">
+        <span class="brand-symbol">∞</span>
+        <span class="brand-text"><strong>Looped</strong><small>Creative Studio</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#method">Method</a>
+        <a href="#contact" class="nav-pill">Start Project</a>
+      </div>
+    </nav>
+  </header>
 
-  <p>
-    Some feelings never leave.
-  </p>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-left reveal">
+        <p class="eyebrow">Brand Identity · Websites · AI Creative Systems</p>
+        <h1>Digital presence, <span>looped together</span> with intention.</h1>
+        <p class="hero-copy">Looped Creative Studio designs refined brands, strategic websites, and smart content systems for businesses ready to look polished, trusted, and unforgettable online.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="button primary">Start Your Brand</a>
+          <a href="#work" class="button ghost">See Featured Work</a>
+        </div>
+      </div>
+      <div class="hero-right reveal">
+        <div class="studio-card">
+          <div class="card-top"><span>Looped System</span><span>01</span></div>
+          <div class="orb-wrap"><div class="orb"><span>∞</span></div></div>
+          <div class="card-bottom"><p>Strategy</p><p>Design</p><p>Launch</p></div>
+        </div>
+        <div class="mini-card mini-card-one"><span>Brand Clarity</span><strong>Visual direction that feels aligned.</strong></div>
+        <div class="mini-card mini-card-two"><span>Digital Flow</span><strong>Websites, content, and systems connected.</strong></div>
+      </div>
+    </section>
 
-  <button>
-    Enter
-  </button>
+    <section class="strip">
+      <div class="strip-track">
+        <span>Distinct by Design</span><i>∞</i><span>Premium Digital Direction</span><i>∞</i><span>Brand Systems</span><i>∞</i><span>Website Experiences</span><i>∞</i><span>AI Content Workflows</span><i>∞</i>
+        <span>Distinct by Design</span><i>∞</i><span>Premium Digital Direction</span><i>∞</i><span>Brand Systems</span><i>∞</i><span>Website Experiences</span><i>∞</i><span>AI Content Workflows</span>
+      </div>
+    </section>
 
+    <section class="section container" id="services">
+      <div class="section-intro reveal">
+        <p class="eyebrow">What We Create</p>
+        <h2>Everything your business needs to feel clear, polished, and connected.</h2>
+      </div>
+      <div class="service-list">
+        <article class="service-item reveal"><div class="service-index">01</div><div><h3>Brand Identity</h3><p>Logos, visual direction, colors, typography, content style, and the full foundation for a brand that looks intentional from the first impression.</p></div></article>
+        <article class="service-item reveal"><div class="service-index">02</div><div><h3>Website Design</h3><p>Elevated websites built to explain what you do, build trust, guide visitors, and create a strong digital home for your business.</p></div></article>
+        <article class="service-item reveal"><div class="service-index">03</div><div><h3>AI Content Systems</h3><p>Creative workflows for visuals, captions, campaigns, digital products, and repeatable content so your ideas can move faster.</p></div></article>
+        <article class="service-item reveal"><div class="service-index">04</div><div><h3>SEO & Digital Setup</h3><p>Page structure, search-ready copy, metadata, local positioning, and the setup details that help your website work harder.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="container">
+        <div class="work-heading reveal"><p class="eyebrow">Featured Work</p><h2>Brands and concepts shaped inside the Looped world.</h2></div>
+        <div class="work-grid">
+          <article class="work-card tall reveal"><span class="work-number">01</span><div><h3>Now Elevate</h3><p>Business transformation consulting brand with strategy, SEO, and premium positioning.</p></div><a href="#contact">View Direction</a></article>
+          <article class="work-card reveal"><span class="work-number">02</span><div><h3>Broken Memoirs</h3><p>Cinematic storytelling brand built around relationships, longing, healing, and emotion.</p></div><a href="#contact">View Direction</a></article>
+          <article class="work-card reveal"><span class="work-number">03</span><div><h3>Jasmine Whispers</h3><p>Luxury AI persona and content system with cinematic visuals and social storytelling.</p></div><a href="#contact">View Direction</a></article>
+          <article class="work-card reveal"><span class="work-number">04</span><div><h3>Against The Grain Society</h3><p>Bold bowling community identity designed around confidence, culture, and individuality.</p></div><a href="#contact">View Direction</a></article>
+          <article class="work-card wide reveal"><span class="work-number">05</span><div><h3>Your Brand Here</h3><p>The next space is reserved for the business, creator, or brand ready for a more elevated digital presence.</p></div><a href="#contact">Start Yours</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container method" id="method">
+      <div class="method-left reveal"><p class="eyebrow">Our Method</p><h2>We do not just decorate your business. We organize the way it shows up.</h2><p>The goal is not to make something pretty for one day. The goal is to build a visual and digital system your business can keep using across your website, content, offers, social media, and client experience.</p></div>
+      <div class="method-steps">
+        <div class="step reveal"><span>01</span><h3>Clarify</h3><p>We define the offer, audience, message, and visual direction.</p></div>
+        <div class="step reveal"><span>02</span><h3>Create</h3><p>We design the identity, website layout, content style, and digital assets.</p></div>
+        <div class="step reveal"><span>03</span><h3>Connect</h3><p>We bring the pieces together so your brand feels consistent everywhere.</p></div>
+      </div>
+    </section>
+
+    <section class="contact container" id="contact">
+      <div class="contact-panel reveal">
+        <div><p class="eyebrow">Start a Project</p><h2>Ready for a brand that finally feels like the business you are building?</h2></div>
+        <div class="contact-copy"><p>Let’s create a digital presence that looks premium, explains your value clearly, and gives your business a stronger foundation online.</p><a href="mailto:hello@loopedcreativestudio.com" class="button primary">hello@loopedcreativestudio.com</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a href="#home" class="brand"><span class="brand-symbol">∞</span><span class="brand-text"><strong>Looped</strong><small>Creative Studio</small></span></a>
+    <p>© <span id="year"></span> Looped Creative Studio. Distinct by Design.</p>
+  </footer>
 </body>
 </html>
